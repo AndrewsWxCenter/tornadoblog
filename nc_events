@@ -66,23 +66,23 @@ addFunctionOnWindowLoad(GetClock);
 <table id="nctorevents" class="nctorevents">
 <thead>
 <tr>
-<th title="Field #1">RANK</th>
-<th title="Field #2">DAY</th>
-<th title="Field #3">MONTH</th>
-<th title="Field #4">YEAR</th>
-<th title="Field #5">DATE(S)</th>
-<th title="Field #6">TORNADOES</th>
-<th title="Field #7">MAX RATING</th>
-<th title="Field #8">FATALITIES</th>
-<th title="Field #9">INJURIES</th>
-<th title="Field #10">TOTAL TORNADO MILES</th>
-<th title="Field #11">NOTES</th>
+<th data-tsorter="numeric">RANK</th>
+<th data-tsorter="numeric">DAY</th>
+<th data-tsorter="numeric">MONTH</th>
+<th data-tsorter="numeric">YEAR</th>
+<th>DATE(S)</th>
+<th data-tsorter="numeric">TORNADOES</th>
+<th>MAX RATING</th>
+<th data-tsorter="numeric">FATALITIES</th>
+<th data-tsorter="numeric">INJURIES</th>
+<th data-tsorter="numeric">TOTAL TORNADO MILES</th>
+<th>NOTES</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td align="right">1</td>
+<td>1</td>
 <td align="right">16</td>
 <td align="right">4</td>
 <td align="right">2011</td>
